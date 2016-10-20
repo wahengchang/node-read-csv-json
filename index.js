@@ -15,7 +15,7 @@ csvModule.prototype.getCSVJson = function () {
   return new Promise(function(resolve, reject) {
 
     CsvToArray ({
-      file: __dirname + '/' + _readDir,
+      file:  _readDir,
       columns: _fieldsName
     }, function (err, response) {
       if(err){
