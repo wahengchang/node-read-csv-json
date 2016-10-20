@@ -1,0 +1,33 @@
+{
+  "name": "read-csv-json",
+  "version": "1.0.0",
+  "description": "It is a module of reading a CSV file and resolve JSON data type as a promise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wahengchang/node-read-csv-json.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "read",
+    "file",
+    "promise",
+    "convert",
+    "data",
+    "node",
+    "npm"
+  ],
+  "author": "Peter Chang <wahengchang@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/node-read-csv-json/issues"
+  },
+  "homepage": "https://github.com/wahengchang/node-read-csv-json#readme",
+  "dependencies": {
+    "csv-to-array": "^1.0.2"
+  }
+}
